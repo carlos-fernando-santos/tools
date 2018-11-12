@@ -1,0 +1,33 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Tools.master.vb" Inherits="tools.Tools" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Tools</title>
+    <script src="Scripts/alertify.min.js"></script>
+    <link rel="stylesheet"="Content/alertifyjs/alertify.min.css" />
+    <link rel="stylesheet" href="Content/alertifyjs/themes/default.min.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/Tools.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server" ID="sm1">
+            <Scripts>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+            </Scripts>
+        </asp:ScriptManager>
+        <div>
+            <asp:ContentPlaceHolder ID="Conteudo" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
