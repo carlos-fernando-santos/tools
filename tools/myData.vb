@@ -7,6 +7,8 @@ Public Class myData
         DSN_Real = 2
         DSN_Testes_RH = 3
         DSN_Real_RH = 4
+        DSN_Testes_Peru = 5
+        DSN_Real_Peru = 6
     End Enum
 
     Private Shared ReadOnly Property propConnectinonString(qualDsn As myData.enumDsn) As String

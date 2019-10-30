@@ -36,6 +36,8 @@
                 <asp:ListItem Value="2">Real</asp:ListItem>
                 <asp:ListItem Value="3">Testes RH</asp:ListItem>
                 <asp:ListItem Value="4">Real RH</asp:ListItem>
+                <asp:ListItem Value="5">Testes Peru</asp:ListItem>
+                <asp:ListItem Value="6">Real Peru</asp:ListItem>
             </asp:DropDownList>            
            <label for="xtype" class="col-sm-2 col-form-label">Tipo Resultado</label>
             <asp:DropDownList runat="server" ID="xtype" class="form-control col-sm-3">
